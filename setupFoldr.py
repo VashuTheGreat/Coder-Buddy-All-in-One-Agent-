@@ -10,12 +10,19 @@ folders=[
     "exceptions",
     "logger",
     "notebooks",
+    "public"
     "src",
     f"src/{PROJECT_NAME}/components",
     f"src/{PROJECT_NAME}/constants",
     f"src/{PROJECT_NAME}/entity",
     f"src/{PROJECT_NAME}/utils",
     f"src/{PROJECT_NAME}/agents",
+    f"src/{PROJECT_NAME}/prompts/",
+    f"src/{PROJECT_NAME}/llm/",
+    f"src/{PROJECT_NAME}/models/",
+    f"src/{PROJECT_NAME}/graphs/",
+    f"src/{PROJECT_NAME}/nodes/",
+    f"src/{PROJECT_NAME}/pipelines/",
 ]
 
 

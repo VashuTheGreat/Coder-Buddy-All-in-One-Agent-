@@ -1,0 +1,18 @@
+Planner_Agent:
+  llm: "qwen-2.5-mini"
+  temperature: 0.2
+  top_p: 0.8
+  top_k: 40
+  max_tokens: 4000
+  repetition_penalty: 1.1
+  stop_sequences: ["```"]
+  
+
+Coding_Agent:
+  llm: "qwen-2.5-mini"
+  temperature: 0.4
+  top_p: 0.9
+  top_k: 50
+  max_tokens: 6000
+  repetition_penalty: 1.05
+  
