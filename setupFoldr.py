@@ -1,6 +1,8 @@
 import os
 
 PROJECT_NAME="Coder_Buddy"
+PROJECT_NAME2="LoopCode"
+
 
 folders=[
     "config",
@@ -23,6 +25,22 @@ folders=[
     f"src/{PROJECT_NAME}/graphs/",
     f"src/{PROJECT_NAME}/nodes/",
     f"src/{PROJECT_NAME}/pipelines/",
+    
+
+
+
+
+    # f"src/{PROJECT_NAME2}/components",
+    # f"src/{PROJECT_NAME2}/constants",
+    # f"src/{PROJECT_NAME2}/entity",
+    # f"src/{PROJECT_NAME2}/utils",
+    # f"src/{PROJECT_NAME2}/agents",
+    # f"src/{PROJECT_NAME2}/prompts/",
+    # f"src/{PROJECT_NAME2}/llm/",
+    # f"src/{PROJECT_NAME2}/models/",
+    # f"src/{PROJECT_NAME2}/graphs/",
+    # f"src/{PROJECT_NAME2}/nodes/",
+    # f"src/{PROJECT_NAME2}/pipelines/"
 ]
 
 

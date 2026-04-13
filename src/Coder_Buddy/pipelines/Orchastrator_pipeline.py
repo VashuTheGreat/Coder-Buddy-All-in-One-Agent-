@@ -1,5 +1,5 @@
 
-from src.Coder_Buddy.components.coder import CoderComponents
+from src.Coder_Buddy.components.Orchastrator import CoderComponents
 import logging
 from src.Coder_Buddy.utils.abstract_methods import Pipeline
 from utils.asyncHandler import asyncHandler

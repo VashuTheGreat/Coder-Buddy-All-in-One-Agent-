@@ -5,13 +5,12 @@ from exception import MyException
 
 
 def asyncHandler(func):
-    wraps(func)
-
-    async def wrapper(*args,**kwargs):
+    @wraps(func)
+    async def wrapper(*args, **kwargs):
         try:
-            return await func(*args,**kwargs)
+            return await func(*args, **kwargs)
         except Exception as e:
-            err=MyException(e,sys)
-            logging.error(err)
+            err = MyException(e, sys)
+            logging.error(f"AsyncHandler caught error in {func.__name__}: {err}")
             raise err
-    return wrapper    
+    return wrapper

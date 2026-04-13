@@ -7,7 +7,7 @@ sys.path.append(os.getcwd())
 from logger import *
 import logging
 
-from src.Coder_Buddy.pipelines.coder_pipeline import CoderPipeline
+from src.Coder_Buddy.pipelines.Orchastrator_pipeline import CoderPipeline
 
 import asyncio
 
@@ -27,7 +27,7 @@ async def main():
 
 
         # ================== FileWriter Pipeline Test ==================
-        from src.Coder_Buddy.pipelines.fileWriter_pipeline import fileWriterPipeline
+        from src.Coder_Buddy.pipelines.FileWriter_pipeline import fileWriterPipeline
         logging.info("Starting fileWriterPipeline test...")
         file_writer_pipeline = fileWriterPipeline()
         file_writer_output = await file_writer_pipeline.initiate(
